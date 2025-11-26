@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-body: #f5f5f7;
+}
+
+/* RTL base layout */
+html {
+  direction: rtl;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-cairo;
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+}
